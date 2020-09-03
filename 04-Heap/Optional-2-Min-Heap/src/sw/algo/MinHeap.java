@@ -45,7 +45,7 @@ public class MinHeap<Item extends Comparable> {
             k = parent(k);
         }
     }
-
+    
     protected void shiftDown(int k) {
         while (leftChild(k) < count) {
             int j = leftChild(k);
