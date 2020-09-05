@@ -36,6 +36,7 @@ public class UnionFind {
 //        return parent[p];
     }
 
+
     // p 和 q是否连接
     public boolean isConnected(int p, int q) {
         return find(p) == find(q);
